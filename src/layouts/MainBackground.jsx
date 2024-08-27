@@ -11,7 +11,7 @@ const MainBackground = ({ children }) => {
         />
       </div>
       {children && (
-        <div className="absolute -translate-x-[50%] left-[50%] top-10 w-full">
+        <div className="absolute -translate-x-[50%] left-[50%] top-2 w-full">
           {children}
         </div>
       )}
